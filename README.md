@@ -11,6 +11,8 @@ Utilize boas práticas de encapsulamento e organização orientada a objetos par
 dados.
 '''
 
+
+
 class Produto:
     def __init__(self, nome: str, preco: float, descricao: str, quantidade: int):
         self.__nome = nome
